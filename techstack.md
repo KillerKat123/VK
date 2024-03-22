@@ -3,29 +3,28 @@
 ## Tech Stack
 KillerKat123/VK is built on the following main stack:
 
-- [Dart](https://www.dartlang.org/) – Languages
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Ruby](https://www.ruby-lang.org) – Languages
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Languages
 - [TypeScript](http://www.typescriptlang.org) – Languages
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
+- [Capybara](http://jnicklas.github.io/capybara/) – Testing Frameworks
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 - [ESLint](http://eslint.org/) – Code Review
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Istio](https://istio.io/) – Microservices Tools
 - [Mocha](http://mochajs.org/) – Javascript Testing Framework
-- [Playwright](https://github.com/microsoft/playwright) – Browser Testing
 - [Prettier](https://prettier.io/) – Code Review
 - [Puma](http://puma.io/) – Web Servers
 - [Rails Spring](https://github.com/rails/spring) – Rails Testing
 - [RuboCop](http://batsov.com/rubocop/) – Code Review
 - [Stylelint](http://stylelint.io/) – Code Review
-- [Visual Studio Code](https://code.visualstudio.com/) – Text Editor
 - [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
 - [Webpacker](https://github.com/rails/webpacker) – JS Build Tools / JS Task Runners
 - [rollup](http://rollupjs.org/) – JS Build Tools / JS Task Runners
 - [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - [Bootsnap](https://github.com/shopify/bootsnap) – Ruby Utilities
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - [Turbolinks](https://github.com/turbolinks/turbolinks) – Ruby Utilities
 
 Full tech stack [here](/techstack.md)
@@ -36,29 +35,28 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 KillerKat123/VK is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/1646/Twitter-02.png' alt='Dart'/> [Dart](https://www.dartlang.org/) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/3339/rlFcjEdI.png' alt='PostCSS'/> [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/2595/capybara.png' alt='Capybara'/> [Capybara](http://jnicklas.github.io/capybara/) – Testing Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 - <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'/> [Istio](https://istio.io/) – Microservices Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/11955/default_48baa40615243f437bc3b182e62ddfe0290fca4b.png' alt='Playwright'/> [Playwright](https://github.com/microsoft/playwright) – Browser Testing
 - <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
 - <img width='25' height='25' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'/> [Puma](http://puma.io/) – Web Servers
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Rails Spring'/> [Rails Spring](https://github.com/rails/spring) – Rails Testing
 - <img width='25' height='25' src='https://img.stackshare.io/service/2643/rubocop.png' alt='RuboCop'/> [RuboCop](http://batsov.com/rubocop/) – Code Review
 - <img width='25' height='25' src='https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg' alt='Stylelint'/> [Stylelint](http://stylelint.io/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png' alt='Visual Studio Code'/> [Visual Studio Code](https://code.visualstudio.com/) – Text Editor
 - <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Webpacker'/> [Webpacker](https://github.com/rails/webpacker) – JS Build Tools / JS Task Runners
 - <img width='25' height='25' src='https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg' alt='rollup'/> [rollup](http://rollupjs.org/) – JS Build Tools / JS Task Runners
 - <img width='25' height='25' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'/> [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Bootsnap'/> [Bootsnap](https://github.com/shopify/bootsnap) – Ruby Utilities
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - <img width='25' height='25' src='https://img.stackshare.io/service/3028/default_ce0a839b05d39c32172761cba1f092a8433d381c.png' alt='Turbolinks'/> [Turbolinks](https://github.com/turbolinks/turbolinks) – Ruby Utilities
 
 Full tech stack [here](/techstack.md)
@@ -70,7 +68,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [KillerKat123/VK](https://github.com/KillerKat123/VK)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|70<br/>Tools used|03/15/24 <br/>Report generated|
+|63<br/>Tools used|03/22/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -80,14 +78,6 @@ Full tech stack [here](/techstack.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/6727/css.png' alt='CSS 3'>
   <br>
   <sub><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3">CSS 3</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/1646/Twitter-02.png' alt='Dart'>
-  <br>
-  <sub><a href="https://www.dartlang.org/">Dart</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -104,6 +94,14 @@ Full tech stack [here](/techstack.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'>
   <br>
   <sub><a href="https://www.ruby-lang.org">Ruby</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'>
+  <br>
+  <sub><a href="https://en.wikipedia.org/wiki/Shell_script">Shell</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -143,6 +141,14 @@ Full tech stack [here](/techstack.md)
 ## <img src='https://img.stackshare.io/devops.svg'/> DevOps (17)
 <table><tr>
   <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/2595/capybara.png' alt='Capybara'>
+  <br>
+  <sub><a href="http://jnicklas.github.io/capybara/">Capybara</a></sub>
+  <br>
+  <sub>v3.38.0</sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'>
   <br>
   <sub><a href="https://www.docker.com/">Docker</a></sub>
@@ -175,19 +181,19 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'>
+  <br>
+  <sub><a href="https://istio.io/">Istio</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'>
   <br>
   <sub><a href="http://mochajs.org/">Mocha</a></sub>
   <br>
   <sub>v10.0.0</sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/11955/default_48baa40615243f437bc3b182e62ddfe0290fca4b.png' alt='Playwright'>
-  <br>
-  <sub><a href="https://github.com/microsoft/playwright">Playwright</a></sub>
-  <br>
-  <sub></sub>
 </td>
 
 <td align='center'>
@@ -198,7 +204,9 @@ Full tech stack [here](/techstack.md)
   <sub>v1.19.1</sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'>
   <br>
   <sub><a href="http://puma.io/">Puma</a></sub>
@@ -206,9 +214,7 @@ Full tech stack [here](/techstack.md)
   <sub>v5.6.6</sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='Rails Spring'>
   <br>
   <sub><a href="https://github.com/rails/spring">Rails Spring</a></sub>
@@ -238,14 +244,6 @@ Full tech stack [here](/techstack.md)
   <sub><a href="http://stylelint.io/">Stylelint</a></sub>
   <br>
   <sub>v14.13.0</sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png' alt='Visual Studio Code'>
-  <br>
-  <sub><a href="https://code.visualstudio.com/">Visual Studio Code</a></sub>
-  <br>
-  <sub></sub>
 </td>
 
 <td align='center'>
@@ -317,9 +315,9 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/4982/75601495f263d568fc60f3de8577b6ab_normal.png' alt='Pry'>
   <br>
-  <sub><a href="https://en.wikipedia.org/wiki/Shell_script">Shell</a></sub>
+  <sub><a href="http://pryrepl.org">Pry</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -344,9 +342,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (40)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (33)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (25)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (18)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -354,24 +352,17 @@ Full tech stack [here](/techstack.md)
 |[activemodel](https://rubygems.org/activemodel)|v7.0.3|08/12/21|Cameron Dutro |MIT|N/A|
 |[activerecord](https://rubygems.org/activerecord)|v7.0.3|08/12/21|Cameron Dutro |MIT|[CVE-2022-32224](https://github.com/advisories/GHSA-3hhc-qp5v-9p2j) (Critical)<br/>[CVE-2022-44566](https://github.com/advisories/GHSA-579w-22j4-4749) (High)<br/>[CVE-2023-22794](https://github.com/advisories/GHSA-hq7p-j377-6v63) (High)|
 |[activesupport](https://rubygems.org/activesupport)|v7.0.3|08/12/21|Cameron Dutro |MIT|[CVE-2023-28120](https://github.com/advisories/GHSA-pj73-v5mw-pm9j) (Moderate)<br/>[CVE-2023-38037](https://github.com/advisories/GHSA-cr5q-6q9f-rq6q) (Low)<br/>[CVE-2023-22796](https://github.com/advisories/GHSA-j6gc-792m-qgm2) (Low)|
-|[benchmark-ips](https://rubygems.org/benchmark-ips)|v2.8.4|02/08/21|Blake Williams |MIT|N/A|
-|[capybara](https://rubygems.org/capybara)|v3.38.0|03/24/21|Manuel Puyol |MIT|N/A|
 |[foreman](https://rubygems.org/foreman)|v0.87.2|09/15/22|Jon Rohan |MIT|[CVE-2022-3874](https://github.com/advisories/GHSA-9jfq-54vc-9rr2) (Critical)|
 |[listen](https://rubygems.org/listen)|v3.8.0|09/22/20|Joel Hawksley |MIT|N/A|
 |[minitest](https://rubygems.org/minitest)|v5.17.0|03/24/21|Manuel Puyol |MIT|N/A|
-|[pry](https://rubygems.org/pry)|v0.14.2|08/03/20|Joel Hawksley |MIT|N/A|
 |[rack](https://rubygems.org/rack)|v2.2.6|01/25/23|Katie Langerman |MIT|[CVE-2024-25126](https://github.com/advisories/GHSA-22f2-v57c-j9cx) (Low)<br/>[CVE-2024-26146](https://github.com/advisories/GHSA-54rr-7fvw-6x8f) (Low)<br/>[CVE-2024-26141](https://github.com/advisories/GHSA-xj5v-6v4g-jfw6) (Low)|
 |[rack-cors](https://rubygems.org/rack-cors)|v1.1.1|01/25/23|Katie Langerman |MIT|N/A|
 |[railties](https://rubygems.org/railties)|v7.0.3|02/15/23|Joel Hawksley |MIT|N/A|
 |[rake](https://rubygems.org/rake)|v13.0.6|02/14/22|Cameron Dutro |MIT|N/A|
-|[rubocop-github](https://rubygems.org/rubocop-github)|v0.16.2|07/25/22|Kate Higa |MIT|N/A|
-|[rubocop-performance](https://rubygems.org/rubocop-performance)|v1.11.0|08/12/21|Cameron Dutro |MIT|N/A|
 |[simplecov](https://rubygems.org/simplecov)|v0.21.2|10/18/22|Jon Rohan |MIT|N/A|
-|[simplecov-console](https://rubygems.org/simplecov-console)|v0.9.1|03/10/23|antn |MIT|N/A|
 |[spring](https://rubygems.org/spring)|v4.1.0|11/23/22|Cameron Dutro |MIT|N/A|
 |[sprockets](https://rubygems.org/sprockets)|v4.2.0|04/07/21|Manuel Puyol |MIT|N/A|
 |[sprockets-rails](https://rubygems.org/sprockets-rails)|v3.4.2|03/01/23|dependabot[bot] |MIT|N/A|
-|[thor](https://rubygems.org/thor)|v1.2.1|04/14/21|Manuel Puyol |MIT|N/A|
 |[timecop](https://rubygems.org/timecop)|v0.9.6|03/10/23|antn |MIT|N/A|
 |[webmock](https://rubygems.org/webmock)|v3.18.1|09/28/22|Jon Rohan |MIT|N/A|
 |[yard](https://rubygems.org/yard)|v0.9.28|09/03/20|Joel Hawksley |MIT|[CVE-2024-27285](https://github.com/advisories/GHSA-8mq4-9jjh-9xrc) (Moderate)|
